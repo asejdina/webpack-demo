@@ -4,7 +4,8 @@
   "description": "Webpack demo",
   "main": "app.js",
   "scripts": {
-    "test": "This is a test"
+    "test": "Running Webpack",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,10 @@
   },
   "homepage": "https://github.com/asejdina/webpack-demo#readme",
   "devDependencies": {
+    "babel": "^6.23.0",
     "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
   }
 }
